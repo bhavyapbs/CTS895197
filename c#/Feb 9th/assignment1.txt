@@ -131,22 +131,22 @@ namespace project1
     }
 }
 
-//using generic
- List<Employee> list = new List<Employee>();
-            Employee employee1 = new Employee();
-            list.Add(employee1);
-            Employee employee2 = new Employee();
-            list.Add(employee2);
-            Employee employee3 = new Employee();
-            list.Add(employee3);
-            Employee employee4 = new Employee();
-            list.Add(employee4);
-            Employee employee5 = new Employee();
-            list.Add(employee5);
+////using generic
+//List<Employee> list = new List<Employee>();
+//Employee employee1 = new Employee();
+//list.Add(employee1);
+//Employee employee2 = new Employee();
+//list.Add(employee2);
+//Employee employee3 = new Employee();
+//list.Add(employee3);
+//Employee employee4 = new Employee();
+//list.Add(employee4);
+//Employee employee5 = new Employee();
+//list.Add(employee5);
 
-            foreach (Employee emp in list)
-            {
-                employee1.GetEmployeeDetails();
-                emp.CalculateNetsalary();
-                emp.DisplayEmployeeDetails();
-            }
+//foreach (Employee emp in list)
+//{
+//    employee1.GetEmployeeDetails();
+//    emp.CalculateNetsalary();
+//    emp.DisplayEmployeeDetails();
+//}
