@@ -1,0 +1,205 @@
+Assignment No : 2 C#
+
+1. Print sum and average of elements of an Array
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace assign4
+{
+    class colsum
+    {
+        static void Main()
+        {
+
+            int sumRow, sumCol;
+
+            //Initialize matrix a  
+            int[,] a = {
+                        {1, 2, 3},
+                        {4, 5, 6},
+                        {7, 8, 9}
+                   };
+
+
+            //Calculates sum of each row of given matrix  
+            for (int i = 0; i < 3; i++)
+            {
+                sumRow = 0;
+                for (int j = 0; j < 3; j++)
+                {
+                    sumRow = sumRow + a[i, j];
+                }
+                Console.WriteLine("Sum of " + (i + 1) + " row: " + sumRow);
+            }
+
+            //Calculates sum of each column of given matrix  
+            for (int i = 0; i < 3; i++)
+            {
+                sumCol = 0;
+                for (int j = 0; j < 3; j++)
+                {
+                    sumCol = sumCol + a[j, i];
+                }
+                Console.WriteLine("Sum of " + (i + 1) + " column: " + sumCol);
+            }
+        }
+    }
+}
+
+2. WAP to display sum of 3 by 3 matrices
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace assign4
+{
+    class matrices
+    {
+        static void Main()
+        {
+            int i, j;
+            int[,] arr1 = new int[3, 3];
+            int[,] arr2 = new int[3, 3];
+            int[,] arr3 = new int[3, 3];
+            // setting matrix row and columns size
+            Console.Write("Enter elements in the first matrix:\n");
+            for (i = 0; i < 3; i++)
+            {
+                for (j = 0; j < 3; j++)
+                {
+                    arr1[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+            Console.Write("Enter elements in the second matrix:\n");
+            for (i = 0; i < 3; i++)
+            {
+                for (j = 0; j < 3; j++)
+                {
+                    arr2[i, j] = Convert.ToInt32(Console.ReadLine());
+                }
+            }
+            Console.Write("\nFirst matrix is:\n");
+            for (i = 0; i < 3; i++)
+            {
+                Console.Write("\n");
+                for (j = 0; j < 3; j++)
+                    Console.Write("{0}\t", arr1[i, j]);
+            }
+            Console.Write("\nSecond matrix is:\n");
+            for (i = 0; i < 3; i++)
+            {
+                Console.Write("\n");
+                for (j = 0; j < 3; j++)
+                    Console.Write("{0}\t", arr2[i, j]);
+            }
+            for (i = 0; i < 3; i++)
+                for (j = 0; j < 3; j++)
+                    arr3[i, j] = arr1[i, j] + arr2[i, j];
+            Console.Write("\nAdding two matrices: \n");
+            for (i = 0; i < 3; i++)
+            {
+                Console.Write("\n");
+                for (j = 0; j < 3; j++)
+                    Console.Write("{0}\t", arr3[i, j]);
+            }
+            Console.Write("\n\n");
+        }
+    }
+}
+
+3. WAP to find the maximum element of an integer Array
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace assign4
+{
+    class largenummat
+    {
+        static void Main()
+        {
+            int[] num = new int[5];
+            Console.WriteLine("Enter Numbers");
+            for (int i = 0; i < 5; i++)
+            {
+                num[i] = Convert.ToByte(Console.ReadLine());
+
+            }
+            Console.WriteLine("Numbers are");
+            for (int i = 0; i < 5; i++)
+            {
+                Console.WriteLine(num[i]);
+
+            }
+            int max = num[0];
+            for (int i = 1; i < num.Length; i++)
+                if (num[i] > max)
+                    max = num[i];
+            Console.WriteLine("The maximum element of an integer Array is: " + max);
+        }
+
+    }
+    }
+
+
+4. WAP to print column wise sum of elements of 2 D Array
+5. WAP to print row wise sum of elements of 2 D Array
+
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace assign4
+{
+    class colsum
+    {
+        static void Main()
+        {
+
+            int sumRow, sumCol;
+
+            //Initialize matrix a  
+            int[,] a = {
+                        {1, 2, 3},
+                        {4, 5, 6},
+                        {7, 8, 9}
+                   };
+
+
+            //Calculates sum of each row of given matrix  
+            for (int i = 0; i < 3; i++)
+            {
+                sumRow = 0;
+                for (int j = 0; j < 3; j++)
+                {
+                    sumRow = sumRow + a[i, j];
+                }
+                Console.WriteLine("Sum of " + (i + 1) + " row: " + sumRow);
+            }
+
+            //Calculates sum of each column of given matrix  
+            for (int i = 0; i < 3; i++)
+            {
+                sumCol = 0;
+                for (int j = 0; j < 3; j++)
+                {
+                    sumCol = sumCol + a[j, i];
+                }
+                Console.WriteLine("Sum of " + (i + 1) + " column: " + sumCol);
+            }
+        }
+    }
+}

@@ -1,0 +1,92 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace cs_Assignment2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Sum of 3 numbers
+            int x = 2;
+            int y = 3;
+            int z = 4;
+            Console.WriteLine("Sum of x,y,z is " + (x + y + z));
+
+            //Sum of 20 natural numbers
+            int sum = 0;
+            for(int n=1;n<=20;n++)
+            {
+                sum = sum + n;
+            }
+            Console.WriteLine("The sum of 1st 20 natural numbers is: " + sum);
+
+            //average of natural numbers
+            double avg;
+            avg = (float)sum / 20;
+            Console.WriteLine("The average of 1st 20 natural numbers is: " + avg);
+
+            //4. WAP to print first 50 even numbers
+            for (int q = 1;q<=50;q++)
+            {
+                if (q % 2 == 0)
+                {
+                    Console.WriteLine(q);
+                }
+            }
+
+            //5. WAP to check whether a number is prime or not
+            int Count = 0;
+            int b, num;
+            Console.WriteLine("Enter a number");
+            num = Convert.ToByte(Console.ReadLine());
+            for (b=1;b <= num;b++)
+            {
+                if (num % b == 0)
+                    Count++;
+            }
+            if(Count==2)
+            {
+                Console.WriteLine("The given number is a prime number");
+            }
+            else
+            {
+                Console.WriteLine("The given number is not a prime number");
+            }
+
+
+            int d, e;
+            Console.WriteLine("Enter an Integer");
+            d = Convert.ToByte(Console.ReadLine());
+            for(e = 1; e <= 10; e++)
+            {
+                Console.WriteLine("{0} x {1} = {2} ", d, e, d * e);
+            }
+
+        }
+    }
+}
+
+/*7.difference between ToIn16, ToInt32 , ToByte and other methods available
+            The Convert.ToInt16() method returns the 16-bit integer e.g. short, the Convert.ToInt32() returns 32-bit integers e.g. int and the Convert.ToInt64() returns the 64-bit integer e.g. long. */
+
+            /*8. What is System in the program. What are Console and Convert? What are Write, WriteLine , ReadLine and ToByte
+            system  : system is a namespace, namespace is logical collection of related classes
+            Console : Console is a class which is present in the namespace
+            Write, WriteLine :The most common method to output something in C# is WriteLine() and Write().
+                        The difference is that WriteLine() prints the output on a new line each time, while Write() prints on the same line
+            Convert : this is used to convert one data type to other data type
+            ReadLine : it is a input statement to take values
+            ToByte : it is used to conver data into bytes */
+
+
+            /*9. Is it mandatory to have a class in the project
+              Yes, C# application must have at least one class with Main method, so that execution can begin from it.*/
+
+
+            /*10. Why is static added to Main() method?
+              A main method is static since it is available to run when the C# program starts. It is the entry point of the program and runs without even creating an instance of the class.*/
+
