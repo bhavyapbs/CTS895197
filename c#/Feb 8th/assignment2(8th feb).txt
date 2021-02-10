@@ -1,7 +1,6 @@
 Assignment No : 2 C#
 
 1. Print sum and average of elements of an Array
-
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,42 +9,24 @@ using System.Threading.Tasks;
 
 namespace assign4
 {
-    class colsum
+    class Program
     {
-        static void Main()
-        {
-
-            int sumRow, sumCol;
-
-            //Initialize matrix a  
-            int[,] a = {
-                        {1, 2, 3},
-                        {4, 5, 6},
-                        {7, 8, 9}
-                   };
-
-
-            //Calculates sum of each row of given matrix  
-            for (int i = 0; i < 3; i++)
+        static void Main(string[] args)
+        { 
+            int[] num = new int[10];
+            int sum = 0;
+            float avg;
+            Console.WriteLine("Enter Numbers");
+            for (int i = 0; i < 10; i++)
             {
-                sumRow = 0;
-                for (int j = 0; j < 3; j++)
-                {
-                    sumRow = sumRow + a[i, j];
-                }
-                Console.WriteLine("Sum of " + (i + 1) + " row: " + sumRow);
+                num[i] = Convert.ToInt16(Console.ReadLine());
+                sum += num[i];
             }
 
-            //Calculates sum of each column of given matrix  
-            for (int i = 0; i < 3; i++)
-            {
-                sumCol = 0;
-                for (int j = 0; j < 3; j++)
-                {
-                    sumCol = sumCol + a[j, i];
-                }
-                Console.WriteLine("Sum of " + (i + 1) + " column: " + sumCol);
-            }
+            avg = (float)sum / 10;
+            Console.WriteLine("Sum is " + sum);
+            Console.WriteLine("Average is " + avg);
+
         }
     }
 }
