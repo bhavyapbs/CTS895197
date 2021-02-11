@@ -10,13 +10,13 @@ namespace cs_Assignment2
     {
         static void Main(string[] args)
         {
-            //Sum of 3 numbers
+            //2.Sum of 3 numbers
             int x = 2;
             int y = 3;
             int z = 4;
             Console.WriteLine("Sum of x,y,z is " + (x + y + z));
 
-            //Sum of 20 natural numbers
+            //3.Sum of 20 natural numbers
             int sum = 0;
             for(int n=1;n<=20;n++)
             {
@@ -57,6 +57,10 @@ namespace cs_Assignment2
                 Console.WriteLine("The given number is not a prime number");
             }
 
+6. WAP to print table of entered number in following format
+
+5 * 1 = 5
+5 * 2 = 10
 
             int d, e;
             Console.WriteLine("Enter an Integer");
