@@ -149,4 +149,8 @@ namespace project1
 //    employee1.GetEmployeeDetails();
 //    emp.CalculateNetsalary();
 //    emp.DisplayEmployeeDetails();
+<<<<<<< HEAD
 //}
+=======
+//}
+>>>>>>> 6cdcea42fa908dec97a05f37055a8082372477b5
