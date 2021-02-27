@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Cognizant.Moviecruiser.Model", "Com.Cognizant.Moviecruiser.Model\Com.Cognizant.Moviecruiser.Model.csproj", "{13E9F307-6B35-4F61-9361-95F1FF85AD71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{13E9F307-6B35-4F61-9361-95F1FF85AD71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E9F307-6B35-4F61-9361-95F1FF85AD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E9F307-6B35-4F61-9361-95F1FF85AD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E9F307-6B35-4F61-9361-95F1FF85AD71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4835AE10-D8C4-43B2-8CA0-9B991FE02AFE}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+E:\cts training\Moviecruiser\Com.Cognizant.MovieCruiser.Utility\Com.Cognizant.MovieCruiser.Utility\bin\Debug\Com.Cognizant.MovieCruiser.Utility.dll
+E:\cts training\Moviecruiser\Com.Cognizant.MovieCruiser.Utility\Com.Cognizant.MovieCruiser.Utility\bin\Debug\Com.Cognizant.MovieCruiser.Utility.pdb
+E:\cts training\Moviecruiser\Com.Cognizant.MovieCruiser.Utility\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.csprojAssemblyReference.cache
+E:\cts training\Moviecruiser\Com.Cognizant.MovieCruiser.Utility\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.csproj.CoreCompileInputs.cache
+E:\cts training\Moviecruiser\Com.Cognizant.MovieCruiser.Utility\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.dll
+E:\cts training\Moviecruiser\Com.Cognizant.MovieCruiser.Utility\Com.Cognizant.MovieCruiser.Utility\obj\Debug\Com.Cognizant.MovieCruiser.Utility.pdb

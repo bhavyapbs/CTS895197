@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Com.Cognizant.Moviecruiser.Dao", "Com.Cognizant.Moviecruiser.Dao\Com.Cognizant.Moviecruiser.Dao.csproj", "{FEB8D6FA-8EE7-48AD-AF9B-344B57291407}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEB8D6FA-8EE7-48AD-AF9B-344B57291407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEB8D6FA-8EE7-48AD-AF9B-344B57291407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEB8D6FA-8EE7-48AD-AF9B-344B57291407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEB8D6FA-8EE7-48AD-AF9B-344B57291407}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57474A3C-DCC4-4EE8-9BCF-299AD198D697}
+	EndGlobalSection
+EndGlobal
